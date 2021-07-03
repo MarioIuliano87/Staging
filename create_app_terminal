@@ -1,0 +1,7 @@
+#http://www.marinamele.com/from-a-python-script-to-a-portable-mac-application-with-py2app
+
+$ cd /Users/iuliano/PycharmProjects/lab
+
+#Now create a setup file 
+$ py2applet --make-setup app.py
+$ python setup.py py2app -A
